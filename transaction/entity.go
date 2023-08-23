@@ -17,4 +17,5 @@ type Transaction struct {
 	Campaign   campaign.Campaign
 	CreatedAt  time.Time
 	UpdatedAt  time.Time
+	PaymentURL string
 }
